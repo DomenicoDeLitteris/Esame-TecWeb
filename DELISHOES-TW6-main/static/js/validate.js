@@ -52,7 +52,7 @@ function validate ( )
 
 
     // This currently checks to see if the username is
-    // present and if it is at least 5 characters in length.
+    // present and if it is at least 8 characters in length.
     if ( !USERNAME.val() || USERNAME.val().length < 8  )
     {
         // Show an invalid input message
